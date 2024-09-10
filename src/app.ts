@@ -9,10 +9,7 @@ import { generateRandomNumber, sleep, getProxyUrl } from "./utils";
 
 (async () => {
     const tokens = [
-        "user=%7B%22id%22%3A193029817%2C%22first_name%22%3A%22%D0%9C%D0%B0%D1%81%D1%82%D0%B5%D1%80%22%2C%22last_name%22%3A%22%D0%A7%D0%B0%D0%BD%D0%B3%22%2C%22username%22%3A%22malefique%22%2C%22language_code%22%3A%22en%22%2C%22allows_write_to_pm%22%3Atrue%7D&chat_instance=-6116608369668720528&chat_type=sender&auth_date=1725870352&hash=3ed456a07dc11dc6a59faf86f79c52f3df0623702d5fc1743f85e156819e1b2e",
-        /* "query_id=AAFrLsA5AgAAAGsuwDnDlb6f&user=%7B%22id%22%3A5263863403%2C%22first_name%22%3A%22S%22%2C%22last_name%22%3A%22%22%2C%22language_code%22%3A%22en%22%2C%22allows_write_to_pm%22%3Atrue%7D&auth_date=1725870453&hash=e0c4d09f9490fe0b60c47c041277e3ce26597c1e95c7c18e402b883cc123b422",
-        "query_id=AAHBBegiAwAAAMEF6CIPuJAP&user=%7B%22id%22%3A7028082113%2C%22first_name%22%3A%22Q%22%2C%22last_name%22%3A%22%22%2C%22language_code%22%3A%22en%22%2C%22allows_write_to_pm%22%3Atrue%7D&auth_date=1725870562&hash=0c0aab2f71348e93a6e41de5e6a19c012fc21e824a08e9ed3ee9925070a3e5e5",
-        "query_id=AAESPPoYAwAAABI8-hgR9kxK&user=%7B%22id%22%3A6861503506%2C%22first_name%22%3A%22W%22%2C%22last_name%22%3A%22%22%2C%22language_code%22%3A%22bg%22%2C%22allows_write_to_pm%22%3Atrue%7D&auth_date=1725870657&hash=8776f01e0a5923e818f495eb1868f506dc9b2ab232c3e4b2a904b7f9d4d2e309" */
+        ""
     ];
 
     /* const proxy = getProxyUrl({
